@@ -28,6 +28,11 @@ public class Calculator {
                     result = first - second;
                     System.out.println(+first + " and " + second + " Substract of number:= " + result);
                     break;
+                case 3:
+                    result = first * second;
+                    System.out.println(+first+" and "+ second+" Multiply of number:= " + result);
+                    break;
+
             }
             System.out.println("Enter 0  go to back the calculator  ");
             System.out.println("Enter any value for exist");
