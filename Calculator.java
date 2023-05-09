@@ -32,6 +32,10 @@ public class Calculator {
                     result = first * second;
                     System.out.println(+first+" and "+ second+" Multiply of number:= " + result);
                     break;
+                case 4:
+                    result = first / second;
+                    System.out.println(+first+" and "+ second+" Divide of number:= " + result);
+                    break;
 
             }
             System.out.println("Enter 0  go to back the calculator  ");
