@@ -20,9 +20,14 @@ public class Calculator {
             switch (num) {
                 case 1:
                     result = first + second;
-                    System.out.println(+first+" and "+ second+" Sum of number:= " + result);
+                    System.out.println(+first + " and " + second + " Sum of number:= " + result);
                     break;
 
+
+                case 2:
+                    result = first - second;
+                    System.out.println(+first + " and " + second + " Substract of number:= " + result);
+                    break;
             }
             System.out.println("Enter 0  go to back the calculator  ");
             System.out.println("Enter any value for exist");
