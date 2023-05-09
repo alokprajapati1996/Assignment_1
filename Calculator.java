@@ -14,7 +14,7 @@ public class Calculator {
             double second = sc.nextDouble();
 
             System.out.println("Chose one operation");
-            System.out.println("Enter for 1 for Sum, 2 for Substraction, 3 for Multiply , 4 for Divide");
+            System.out.println("Enter for 1 for Sum, 2 for Substractiggjgjyfthfjuon, 3 for Multiply , 4 for Divide");
             int num = sc.nextInt();
 
             switch (num) {
